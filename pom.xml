@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>SparkApp</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Archetype - SparkApp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <!-- Apache Spark Core -->
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-core_2.13</artifactId>
+      <version>3.5.1</version>
+    </dependency>
+
+    <!-- Apache Spark SQL -->
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-sql_2.13</artifactId>
+      <version>3.5.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.scala-lang/scala-library -->
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.13.14</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.1.0-alpha1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>3.0.0-beta2</version>
+    </dependency>
+  </dependencies>
+
+</project>

@@ -1,0 +1,3 @@
+Lorem Ipsum generators such as Loripsum.net,
+can be used creatively to generate text. While traditionally used for placeholder text,
+it can also be utilized to create sample text with 6 lines in English.
